@@ -1,0 +1,95 @@
+########################
+#      UPGRADES        #
+########################
+
+GUN TOWER: price 150, average damage mid ranged tower.
+------------------------------------------------------------------------
+    LEVEL 1:
+        radius = 5.0f;
+        damage = 30;
+        cooldownLength = 57;
+        upgradePrice = 300;
+    LEVEL 2:
+        radius = 5.2f;
+        damage = 45;
+        cooldownLength = 50;
+        upgradePrice = 400;
+    LEVEL 3:
+        radius = 5.7f;
+        damage = 65;
+        cooldownLength = 45;
+        upgradePrice = 700;
+    LEVEL 4:
+        radius = 6.2f;
+        damage = 70;
+        cooldownLength = 30;
+        upgradePrice = 0;
+
+AREA TOWER: price 200, low damage, small cooldown area damage tower.
+------------------------------------------------------------------------    
+    LEVEL 1:
+        radius = 4.0f;
+        damage = 5;
+        cooldownLength = 10;
+        upgradePrice = 400;        
+    LEVEL 2:
+        radius = 4.5f;
+        damage = 8;
+        cooldownLength = 13;
+        upgradePrice = 550;
+    LEVEL 3:
+        radius = 4.8f;
+        damage = 10;
+        cooldownLength = 10;
+        upgradePrice = 900;
+    LEVEL 4:
+        radius = 5.5f;
+        damage = 17;
+        cooldownLength = 5;
+        upgradePrice = 0;
+
+CANNON TOWER: price 300, heavy long ranged artillery.
+------------------------------------------------------------------------
+    LEVEL 1:
+        radius = 6.7f;
+        damage = 50;
+        cooldownLength = 50;
+        upgradePrice = 600;
+    LEVEL 2:
+        radius = 7.2f;
+        damage = 60;
+        cooldownLength = 42;
+        upgradePrice = 800;
+    LEVEL 3:
+        radius = 7.5f;
+        damage = 65;
+        cooldownLength = 38;
+        upgradePrice = 1200;
+    LEVEL 4:
+        radius = 8.0f;
+        damage = 100;
+        cooldownLength = 35;
+        upgradePrice = 0;
+
+ICE TOWER: price 250, small range, neglible damage, special tower for slowing down enemies.
+---------------------------------------------------------------------------------------------
+    LEVEL 1:
+        radius = 4.0f;
+        damage = 2;
+        cooldownLength = 55;
+        upgradePrice = 350;
+    LEVEL 2:
+        radius = 4.4f;
+        damage = 3;
+        cooldownLength = 48;
+        upgradePrice = 700;
+    LEVEL 3;
+        radius = 5.1f;
+        damage = 5;
+        cooldownLength = 38;
+        upgradePrice = 1000;
+    LEVEL 4:
+        radius = 6.0f;
+        damage = 12;
+        cooldownLength = 20;
+        upgradePrice = 0;

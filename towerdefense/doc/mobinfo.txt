@@ -1,0 +1,46 @@
+############################
+#       MOB DETAILS:       #
+############################
+
+Peasant: 
+----------------------
+    hp: 100
+    speed: 0.1f
+    money: 50
+    points: 100 
+
+Spawner:
+----------------------
+    hp: 70
+    speed: 0.1f
+    money: 35
+    points: 70
+    ability: spawns clones of itself to the battle field.
+
+Bomber:
+----------------------
+    hp: 150
+    speed: 0.3f
+    money: 75
+    points: 150
+
+Steamtank:
+----------------------
+    hp: 500
+    speed: 0.15f
+    money: 250
+    points: 500
+
+Mammothtank:
+----------------------
+    hp: 1000
+    speed: 0.075f
+    money: 500
+    points: 1000
+
+Airship:
+----------------------
+    hp: 1200
+    speed: 0.12f
+    money: 600
+    points: 1200

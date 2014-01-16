@@ -1,0 +1,64 @@
+main.o: main.cc player.hh common.hh constants.hh towerdefensegame.hh
+towerdefensegame.o: towerdefensegame.cc gamestatemanager.hh \
+ gameplaystate.hh gamestate.hh camera.hh renderer.hh level.hh common.hh \
+ constants.hh map.hh tile.hh wave.hh mobgenerator.hh mobfactory.hh \
+ tower.hh mob.hh mobsprites.hh projectilesprites.hh towersprites.hh \
+ messagebox.hh towerstats.hh towerdefensegame.hh fpscounter.hh \
+ gamecomponent.hh menustate.hh loginstate.hh player.hh
+gamestatemanager.o: gamestatemanager.cc gamestatemanager.hh gamestate.hh
+gamestate.o: gamestate.cc gamestate.hh gamecomponent.hh \
+ gamestatemanager.hh menustate.hh fpscounter.hh loginstate.hh \
+ messagebox.hh player.hh common.hh constants.hh
+gameplaystate.o: gameplaystate.cc gamestatemanager.hh gamestate.hh \
+ gameplaystate.hh camera.hh renderer.hh level.hh common.hh constants.hh \
+ map.hh tile.hh wave.hh mobgenerator.hh mobfactory.hh tower.hh mob.hh \
+ mobsprites.hh projectilesprites.hh towersprites.hh messagebox.hh \
+ towerstats.hh gamecomponent.hh menustate.hh fpscounter.hh loginstate.hh \
+ player.hh
+camera.o: camera.cc camera.hh
+renderer.o: renderer.cc renderer.hh camera.hh tile.hh common.hh \
+ constants.hh map.hh tower.hh mob.hh level.hh wave.hh mobgenerator.hh \
+ mobfactory.hh mobsprites.hh projectilesprites.hh towersprites.hh \
+ projectile.hh
+tower.o: tower.cc tower.hh constants.hh mob.hh level.hh common.hh map.hh \
+ tile.hh wave.hh mobgenerator.hh mobfactory.hh mobsprites.hh \
+ projectilesprites.hh towersprites.hh projectile.hh
+mob.o: mob.cc mob.hh level.hh common.hh constants.hh map.hh tile.hh \
+ wave.hh mobgenerator.hh mobfactory.hh tower.hh projectilesprites.hh \
+ towersprites.hh mobsprites.hh
+map.o: map.cc map.hh common.hh constants.hh tile.hh
+tile.o: tile.cc tile.hh common.hh constants.hh mob.hh level.hh map.hh \
+ wave.hh mobgenerator.hh mobfactory.hh tower.hh projectilesprites.hh \
+ towersprites.hh mobsprites.hh
+common.o: common.cc common.hh constants.hh
+wave.o: wave.cc wave.hh common.hh constants.hh mobgenerator.hh \
+ mobfactory.hh
+level.o: level.cc level.hh common.hh constants.hh map.hh tile.hh wave.hh \
+ mobgenerator.hh mobfactory.hh tower.hh mob.hh mobsprites.hh \
+ projectilesprites.hh towersprites.hh projectile.hh
+mobgenerator.o: mobgenerator.cc mobgenerator.hh common.hh constants.hh \
+ mobfactory.hh mobsprites.hh mob.hh level.hh map.hh tile.hh wave.hh \
+ tower.hh projectilesprites.hh towersprites.hh
+player.o: player.cc player.hh common.hh constants.hh
+menustate.o: menustate.cc gamecomponent.hh gamestatemanager.hh \
+ menustate.hh gamestate.hh fpscounter.hh loginstate.hh messagebox.hh \
+ player.hh common.hh constants.hh levelselectionstate.hh
+towerstats.o: towerstats.cc towerstats.hh level.hh common.hh constants.hh \
+ map.hh tile.hh wave.hh mobgenerator.hh mobfactory.hh tower.hh mob.hh \
+ mobsprites.hh projectilesprites.hh towersprites.hh
+messagebox.o: messagebox.cc messagebox.hh
+projectile.o: projectile.cc projectile.hh projectilesprites.hh mob.hh \
+ level.hh common.hh constants.hh map.hh tile.hh wave.hh mobgenerator.hh \
+ mobfactory.hh tower.hh towersprites.hh mobsprites.hh
+loginstate.o: loginstate.cc loginstate.hh gamestate.hh messagebox.hh \
+ player.hh common.hh constants.hh gamecomponent.hh gamestatemanager.hh \
+ menustate.hh fpscounter.hh
+levelselectionstate.o: levelselectionstate.cc levelselectionstate.hh \
+ gamestate.hh messagebox.hh common.hh constants.hh gamecomponent.hh \
+ gamestatemanager.hh menustate.hh fpscounter.hh loginstate.hh player.hh \
+ gameplaystate.hh camera.hh renderer.hh level.hh map.hh tile.hh wave.hh \
+ mobgenerator.hh mobfactory.hh tower.hh mob.hh mobsprites.hh \
+ projectilesprites.hh towersprites.hh towerstats.hh
+mobfactory.o: mobfactory.cc mobfactory.hh common.hh constants.hh \
+ mobsprites.hh mob.hh level.hh map.hh tile.hh wave.hh mobgenerator.hh \
+ tower.hh projectilesprites.hh towersprites.hh
